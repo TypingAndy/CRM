@@ -1,0 +1,42 @@
+.mat-drawer-container {
+  height: 100vh;
+}
+
+.menuIcon {
+  cursor: pointer;
+}
+
+.sidenav {
+  width: 18.75rem;
+}
+
+.logoContainer {
+  border-bottom: 0.062rem solid rgba(0, 0, 0, 0.25);
+  padding: 0 1rem;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+mat-toolbar,
+mat-toolbar-row {
+  height: 3.5rem;
+  min-height: 3.5rem;
+}
+
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(0,0,0,0.1);
+    }
+  }
+}
